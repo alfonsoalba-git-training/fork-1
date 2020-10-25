@@ -18,15 +18,34 @@
   <!-- Your Custom CSS file that will include your blocks CSS -->
   <link rel="stylesheet" href="./css/app.css">
 
-  <title>Your template</title>
+  <title>Git Cooking</title>
 </head>
 
 <body>
 
   <!-- Put the blocks HTML here -->
-    Hello!!
+  <div class="block-24 space-between-blocks">
+    <div class="container">
+      <div class="block__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+        <h1 class="block__title mb-3">Git Cooking</h1>
+        <p class="block__paragraph">
+          Select your language | Selecciona tu idioma
+        </p>
+      </div>
+      <div class="logos">
+        <a href="es/index.html" class="logos__img" >
+          <img src="https://www.worldometers.info/img/flags/sp-flag.gif" alt="Español" style="width: 100%">
+        </a>
+        <a href="en/index.html" class="logos__img" >
+          <img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English" style="width: 100%">
+        </a>
+      </div>
+    </div>
+  </div>
+  
   <!-- Put the blocks HTML here -->
 
+  <!-- Uncomment to add a menu
   <script>
     function closeMenuAndGoTo(query) {
       document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')
@@ -48,6 +67,8 @@
         }
       })
   </script>
+
+  -->
 </body>
 
 </html>
